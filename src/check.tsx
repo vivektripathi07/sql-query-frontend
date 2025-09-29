@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { ChangeEvent, KeyboardEvent } from 'react';
-import { Search, Plus, X, Play, Sparkles } from 'lucide-react';
+import { Search, Sparkles } from 'lucide-react';
 import './App.css';
 
 interface QueryResponse {
